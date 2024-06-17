@@ -2,4 +2,4 @@ streamlit
 pandas
 numpy
 Pillow
---no-index -f https://dist.plone.org/thirdparty/ -U PIL
+PIL
