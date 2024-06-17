@@ -1,5 +1,5 @@
 # In this program we will apply various ML algorithms to the built in datasets in scikit-learn
-
+pip install -r requirements.txt
 # Importing required Libraries
 # Importing Numpy
 import numpy as np
