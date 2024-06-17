@@ -91,7 +91,7 @@ if 'initialized' not in st.session_state:
     st.session_state['initialized'] = True
 
 if media_type == 'Image':
-    img=Image.open('https://www.storypick.com/wp-content/uploads/2020/06/k3g-e1591874729646.jpg')
+    img=Image.open('')
     st.image(img)
     st.write('''Picture karo Amitabh Bachchan, Bollywood ke baap, ek dial-up modem ke saamne ulta seedha dekhte hue. Caption hai, "Jab se WiFi connect karne laga, lag raha hai KBC ke agle sawal ka intezaar kar rahe hain!" 💻
 
