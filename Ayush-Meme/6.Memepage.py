@@ -89,7 +89,8 @@ if 'initialized' not in st.session_state:
     st.session_state['initialized'] = True
 
 if media_type == 'Image':
-    st.image('Ayush_pic.jpg')
+    img=open('Ayush_pic.jpg','rb')
+    st.image(img)
     st.write('''Picture karo Amitabh Bachchan, Bollywood ke baap, ek dial-up modem ke saamne ulta seedha dekhte hue. Caption hai, "Jab se WiFi connect karne laga, lag raha hai KBC ke agle sawal ka intezaar kar rahe hain!" 💻
 
 Agle scene mein, Big B ek bade keyboard pe josh se type kar rahe hain. Caption: "Nephew ke Netflix account se logout kaise karein, yeh samajhne ki koshish!" 🤔🔍
