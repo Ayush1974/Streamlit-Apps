@@ -2,6 +2,8 @@ import streamlit as st
 import sqlite3
 import time
 import os
+from PIL import Image
+
 # Function to initialize the database with sample comments
 def initialize_database():
     conn = sqlite3.connect('comments.db')
@@ -89,7 +91,7 @@ if 'initialized' not in st.session_state:
     st.session_state['initialized'] = True
 
 if media_type == 'Image':
-    img=open('Ayush_pic.jpg','rb')
+    img=Image.open('Ayush_pic.jpg')
     st.image(img)
     st.write('''Picture karo Amitabh Bachchan, Bollywood ke baap, ek dial-up modem ke saamne ulta seedha dekhte hue. Caption hai, "Jab se WiFi connect karne laga, lag raha hai KBC ke agle sawal ka intezaar kar rahe hain!" 💻
 
