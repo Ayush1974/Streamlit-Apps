@@ -101,7 +101,7 @@ Aur haan, woh timeless classic: "Jab grandma ne is hafte 37th WhatsApp chain bhe
 
 Kyun ki jab Amitabh Bachchan internet se milti hai, yeh sirf ek meme nahi, balki ek box-office hit hai! 🎬''')
 elif media_type == 'Video Reel':
-    vid=open('Ayush_vid.mp4','rb')
+    vid=open('Ayush-Meme/Ayush_vid.mp4','rb')
     st.video(vid)
     st.write('''Oh, Rahul Gandhi ka "Speaker Madam" wala moment Lok Sabha mein, woh toh meme-worthy hai hi! Imagine scene: Rahul Gandhi, poori seriousness ke saath, Speaker ko "Speaker Madam" bolte hue, jaise ki koi quirky sitcom ka shuruwaat ka dialogue ho.
 
@@ -112,7 +112,7 @@ Ya fir yeh: "Woh awkwad moment jab parliamentary protocol ko family dynamics se 
 Kyunki jab Rahul Gandhi "Speaker Madam" bolte hain, politics se comedy gold ho jata hai! 🎭
              ''')
 elif media_type =='Audio File':
-    voice=open('pani.mp3','rb')
+    voice=open('Ayush-Meme/pani.mp3','rb')
     st.video(voice)
     st.write('''
                 Ek mast meme hai jisme Uncle ji paani offer kar rahe hain! Imagine karo: Uncle ji, muskurahat ke saath, ek glass paani haath mein lekar jaise zindagi ka amrit de rahe ho.
@@ -145,7 +145,7 @@ comments = get_comments(media_id)
 #print(comments) 
 if comments==[]:
     st.success("All comments are reported I will take a look at it soon!",icon="✌")
-    voice=open('Ayush_voice.mp3','rb')
+    voice=open('Ayush-Meme/Ayush_voice.mp3','rb')
     st.video(voice)
 for comment in comments:
 
